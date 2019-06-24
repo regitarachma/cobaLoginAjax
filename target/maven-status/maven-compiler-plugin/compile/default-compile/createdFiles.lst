@@ -1,0 +1,10 @@
+com\javasampleapproach\jqueryajax\model\UserLogin_.class
+com\javasampleapproach\jqueryajax\service\UserService.class
+com\javasampleapproach\jqueryajax\model\UserLogin.class
+com\javasampleapproach\jqueryajax\repository\loginUserRepo.class
+com\javasampleapproach\jqueryajax\controller\MyRestController.class
+com\javasampleapproach\jqueryajax\model\AjaxResponseBody.class
+com\javasampleapproach\jqueryajax\SpringBootJQueryAjaxClientApplication.class
+com\javasampleapproach\jqueryajax\model\LoginForm.class
+com\javasampleapproach\jqueryajax\controller\MyController.class
+com\javasampleapproach\jqueryajax\model\User.class

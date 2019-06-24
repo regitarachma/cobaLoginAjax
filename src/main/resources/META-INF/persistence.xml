@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.javasampleapproach.jqueryajax_SpringBootJQueryAjaxClient_jar_0.0.1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.javasampleapproach.jqueryajax.model.Subdistrict</class>
+    <class>com.javasampleapproach.jqueryajax.model.UsersAuthority_1</class>
+    <class>com.javasampleapproach.jqueryajax.model.Religion</class>
+    <class>com.javasampleapproach.jqueryajax.model.Users_1</class>
+    <class>com.javasampleapproach.jqueryajax.model.District</class>
+    <class>com.javasampleapproach.jqueryajax.model.Employee_1</class>
+    <class>com.javasampleapproach.jqueryajax.model.Village</class>
+    <class>com.javasampleapproach.jqueryajax.model.Province</class>
+    <class>com.javasampleapproach.jqueryajax.model.Authority_1</class>
+    <class>com.javasampleapproach.jqueryajax.model.UsersAuthority</class>
+    <class>com.javasampleapproach.jqueryajax.model.Employee</class>
+    <class>com.javasampleapproach.jqueryajax.model.Authority</class>
+    <class>com.javasampleapproach.jqueryajax.model.Users</class>
+    <class>com.javasampleapproach.jqueryajax.model.Login</class>
+    <class>com.javasampleapproach.jqueryajax.model.UserLogin</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/generate__cv?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
